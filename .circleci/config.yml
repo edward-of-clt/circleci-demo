@@ -5,5 +5,4 @@ jobs:
       - image: circleci/ruby:2.4.1
       - image: ngnix:alpine
     steps:
-      - checkout
       - run: curl localhost -v
