@@ -3,6 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.4.1
-      - image: ngnix:alpine
+      - image: nginx:alpine
     steps:
       - run: curl localhost -v
