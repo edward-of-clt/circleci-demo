@@ -6,4 +6,4 @@ jobs:
       - image: ngnix:alpine
     steps:
       - checkout
-      - run curl localhost -v
+      - run: curl localhost -v
